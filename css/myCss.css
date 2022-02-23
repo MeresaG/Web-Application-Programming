@@ -23,8 +23,8 @@ body {
 }
 
 img.validators {
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
   object-fit: cover;
 }
 
@@ -35,7 +35,7 @@ img.validators {
 
 .right {
   float: right;
-  width: 50%;
+  width: 20%;
 }
 
 .fa {
