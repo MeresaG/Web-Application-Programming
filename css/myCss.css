@@ -22,6 +22,22 @@ body {
   clear: left;
 }
 
+img.validators {
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;

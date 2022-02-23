@@ -1,0 +1,38 @@
+body {
+  background-color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+h1,
+h3 {
+  color: cornflowerblue;
+}
+
+img.sadHappy {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+img.validators {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  padding-top: 10%;
+  padding-left: 3%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 25%;
+}
+
+.footer {
+  background-color: #3b5998;
+}
