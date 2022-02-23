@@ -15,6 +15,27 @@ img.sadHappy {
   object-fit: cover;
 }
 
+.myMovies {
+  text-decoration: none;
+  color: red;
+}
+
+.myMovies:hover {
+  text-decoration: underline;
+  color: #3b5998;
+}
+p::first-letter {
+  font-size: larger;
+}
+
+.hide {
+  display: none;
+}
+.myMovies:hover + .hide {
+  display: block;
+  color: white;
+}
+
 img.validators {
   width: 40%;
   height: 40%;
