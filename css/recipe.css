@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  color: #404040;
+  font-family: Georgia, "Garamond", "Times New Roman", Times, serif;
+  background-image: url(../resources/recipeImages/silverware.jpg);
+}
+a {
+  color: #a4a400;
+}
+h1,
+h4 {
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-family: "Lucida Sans", "Helvetica", "Arial", "sans-serif";
+  text-decoration: underline;
+}
+h1 {
+  text-align: center;
+  font-size: 22pt;
+}
+h4 {
+  text-align: left;
+  font-size: 18pt;
+}
+
+abbr[title] {
+  position: relative;
+
+  /* ensure consistent styling across browsers */
+  text-decoration: underline;
+}
+/* css code for displaying abbrevation */
+abbr[title]:hover::after,
+abbr[title]:focus::after {
+  content: attr(title);
+
+  /* position tooltip like the native one */
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: auto;
+  white-space: nowrap;
+
+  /* style tooltip */
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  padding: 3px 5px;
+}
+span.deleted {
+  text-decoration: line-through;
+}
+/* changing the background color, margin of the comment section */
+div.comment {
+  margin-left: 4%;
+  background-color: #ffffa8;
+  color: black;
+  font-style: italic;
+}
+
+ul {
+  /* change bullets for unordered list */
+  list-style-image: url(../resources/recipeImages/pie_bullet.png);
+}
+
+li {
+  padding-right: 10px;
+}
+
+img.images {
+  width: 15%;
+  height: 5%;
+}
+/* adujsting the width and heigh of the validators image */
+img.validators {
+  width: 20%;
+  height: 30%;
+}
+/* both right and left are the footers to put them side by side */
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  padding-left: 2%;
+  padding-right: 0%;
+}
