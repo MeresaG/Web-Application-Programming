@@ -38,7 +38,7 @@ body {
   width: 550px;
   background-image: url(../resources/tmnt/rbg.png);
   background-repeat: repeat-x;
-  background-size: cover 83px;
+  /* background-size: cover 83px; */
 }
 .rotten-img {
   vertical-align: text-bottom;
