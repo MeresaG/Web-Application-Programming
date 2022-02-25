@@ -107,6 +107,10 @@ div.reviews > * {
   margin-top: 20px;
 }
 
+.down {
+  margin-top: 45px;
+}
+
 span.review-comment {
   padding-left: 5px;
   vertical-align: bottom;
