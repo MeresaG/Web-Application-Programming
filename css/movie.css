@@ -31,6 +31,7 @@ body {
   border-radius: 20px;
   font: bold;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .rotten-review {
@@ -60,6 +61,11 @@ ul {
   font-family: Arial, sans-serif;
   font: bold;
 }
+.footer {
+  background-color: #a2b964;
+  width: 800px;
+  text-align: center;
+}
 .definitions {
   margin: 10pt;
   padding: 10pt;
@@ -76,12 +82,49 @@ img.validators {
   opacity: 0.5;
 }
 
-footer.validators {
+div.validators {
   position: fixed;
   width: 12%;
   top: 87%;
   right: 0;
 }
+
+div.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  font: bold;
+  font-size: 8pt;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+div.reviews > * {
+  flex: 47%;
+}
+.column-reviews {
+  background-color: #e8dc9b;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+span.review-comment {
+  padding-left: 5px;
+  vertical-align: bottom;
+  padding-top: 5px;
+}
+
+.personal-information {
+  margin-top: 10px;
+  display: flex;
+}
+
+.personal-information span {
+  margin-top: 10px;
+}
+
 a.css-validators {
   position: absolute;
   width: 12%;
