@@ -41,3 +41,11 @@ input[type="submit"] {
   font-size: 25px;
   border-radius: 10px;
 }
+
+img.validators {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  padding-top: 10%;
+  padding-left: 3%;
+}
