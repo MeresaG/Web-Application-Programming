@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/webform1.css">
+    <title>Web Form</title>
+</head>
+<body>
+
+    <form action="formprocessing.html" method="get">
+        
+        <div>
+            <label for="email">Email address</label>
+        </div>
+
+        <div>
+            <input type="email" name="email" id="email" placeholder="Enter email" required>
+            <p>We'll never share your email with anyone else.</p>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+        </div>
+
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required>
+        </div>
+
+        <div>
+            <label for="url">Url</label>
+        </div>
+
+        <div>
+            <input type="text" name="url" id="url" placeholder="Enter url" pattern="^(http://|https://).*" required>
+        </div>
+        <input type="checkbox" name="checkmeout" id="checkmeout">
+        <label for="checkmeout">Check me out</label>
+        <input type="submit" value="Submit">
+        
+
+        
+    </form>
+    
+</body>
+</html>
