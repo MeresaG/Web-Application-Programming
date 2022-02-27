@@ -15,10 +15,14 @@ div > input {
 }
 
 input {
-  border: 1px whitesmoke;
+  border: 2px whitesmoke;
   border-style: ridge;
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 3px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 15px;
+  height: 40px;
 }
 
 p {

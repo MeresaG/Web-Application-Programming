@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #5233ff;
+  color: white;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+h2,
+h4 {
+  text-align: center;
+  border-left: 2px solid white;
+  padding-left: 20px;
+}
+
+.sign-out {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  margin-left: 400px;
+  align-items: center;
+}
+
+div.button {
+  height: 80px;
+}
+
+div.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  font: bold;
+  font-size: 14pt;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+form {
+  margin-left: 40px;
+}
+
+div.main-content > * {
+  flex: 47%;
+}
+
+div.input-field {
+  margin-top: 15px;
+}
+
+input,
+select {
+  background-color: white;
+  margin-top: 5px;
+  width: 80%;
+  border: 2px whitesmoke;
+  border-style: ridge;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-left: 15px;
+  height: 40px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-left: 50%;
+}
+
+.buttons > * {
+  margin-left: 10px;
+  background-color: white;
+}
+
+input[type="reset"] {
+  width: 100px;
+  color: darkblue;
+  border: 2px solid darkblue;
+}
+input[type="button"] {
+  width: 100px;
+  color: orange;
+  border: 2px solid orange;
+}
+
+input[type="submit"] {
+  width: 180px;
+  color: blue;
+  border: 2px solid blue;
+}
+
+img.validators {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  padding-top: 10%;
+  padding-left: 3%;
+}

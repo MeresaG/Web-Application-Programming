@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/webform2.css">
+    <title>Web Form 2</title>
+</head>
+<body>
+
+   <header>
+       <nav class="navigation-menu">
+           <h2>MUM Golden Dome Market:::SRM SYstem</h6>
+           <h4>Products</h4>
+           <h4>Suppliers</h4>
+           <div class="sign-out">
+            <h6>Hello!</h6>
+            <button>Sign Out</button>
+           </div>
+           
+
+
+       </nav>
+   </header> 
+   <main>
+       
+       <form action="formprocessing.html" method="get">
+
+        <h3>New Product Form</h3>
+
+       <div class="main-content">
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="productNumber">Product Number</label>
+                </div>
+                <div>
+                    <input type="text" name="productNumber" id="productNumber">
+                </div>
+
+
+            </div>
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="quantity">Quantity Stock</label>
+                </div>
+                <div>
+                    <input type="text" name="quantity" id="quantity" placeholder="0">
+                </div>
+
+
+            </div>
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="name">Name</label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name">
+                </div>
+
+
+            </div>
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="supplier">Supplier</label>
+                </div>
+                <div>
+                    <select name="supplier" id="supplier">
+                    <option value="select-supplier">Select a Supplier</option>
+                    <option value="meresa">Meresa</option>
+                    <option value="aregawi">Aregawi</option>
+                    <option value="yemane">Yemane</option>
+                    <option value="heran">Heran</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="unitPrice">Unit Price</label>
+                </div>
+                <div>
+                    <input type="text" name="unitPrice" id="unitPrice" placeholder="0.0">
+                </div>
+
+
+            </div>
+
+            <div class ="input-field">
+
+                <div>
+                    <label for="dateSupplied">Date Supplied</label>
+                </div>
+                <div>
+                    <input type="date" name="dateSupplied" id="dateSupplied" placeholder="yyyy-mm-dd">
+                    <p>Enter a valid Date.</p>
+                </div>
+
+
+            </div>
+
+
+       </div>
+
+       <div class="buttons">
+
+            <input type="reset" value="Reset">
+            <input type="button" value="Cancel">
+            <input  type="submit" value="Add Product"> 
+
+       </div>
+
+    </form>
+
+   </main>
+
+   <div>
+    <a href="http://validator.w3.org/check?uri=meresag.github.io/Web-Application-Programming/html/webform2.html" rel="nofollow" title="Validate as HTML5"> <img class = "validators" src="../resources/html-validator.png" alt="html validator"/></a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=meresag.github.io/Web-Application-Programming/css/webform2.css" rel="nofollow" title="Validate as CSS"> <img class = "validators" src="../resources/css-validator.png" alt="css validator" /></a>
+    
+</div>
+
+
+    
+</body>
+</html>
