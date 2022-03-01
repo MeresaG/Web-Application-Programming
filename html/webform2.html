@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/webform2.css">
+    <script src="../js/assignment5/Question14.js"></script>
     <title>Web Form 2</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
    </header> 
    <main>
        
-       <form action="formprocessing.html" method="get">
+       <form action="formprocessing.html" method="get" onsubmit="return productForm()">
 
         <h3>New Product Form</h3>
 
@@ -103,7 +104,7 @@
                     <label for="dateSupplied">Date Supplied</label>
                 </div>
                 <div>
-                    <input type="date" name="dateSupplied" id="dateSupplied" placeholder="yyyy-mm-dd">
+                    <input type="date" name="dateSupplied" id="dateSupplied" placeholder="YYYY-MM-DD">
                     <p>Enter a valid Date.</p>
                 </div>
 
