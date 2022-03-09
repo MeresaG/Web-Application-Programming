@@ -1,0 +1,4 @@
+Module pattern - IIFE(immediately invoked function expression (IIFE))
+• used to create a new scope and closure around it
+• can help to avoid declaring global variables/functions
+• used by JavaScript libraries to keep global namespace clean

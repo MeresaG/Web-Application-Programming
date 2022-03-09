@@ -7,11 +7,11 @@ function displayTime() {
     var x1= x.getFullYear() + "-" + x.getMonth() + "-" + x.getDate() + " " ; 
      x1 = x1 +hours + ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;
     document.getElementById('ct6').innerHTML = x1;
-    display();
+    //display();
  }
 
  function display(){
     var refresh=1000; // Refresh rate in milli seconds
-    mytime=setTimeout('displayTime()',refresh)
+    mytime=setInterval('displayTime()',refresh)
     }
     display()

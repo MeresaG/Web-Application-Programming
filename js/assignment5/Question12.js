@@ -1,14 +1,14 @@
 function findSecondBiggest(numbers) {
 
-    if(numbers.length < 2) return false;
+    if(numbers.length < 2) throw new Error("Invalid Array: Must have atleast two elements");
     var max = numbers[0] > numbers[1] ? numbers[0]:numbers[1];
     var secMax =numbers[1] < numbers[0] ? numbers[1]:numbers[0];
     for(let i = 2 ; i < numbers.length; i++) {
 
         if(numbers[i] > max) {
-            var tmp = max;
+            secMax = max;
             max = numbers[i];
-            secMax = tmp;
+            
         }
 
         else if(numbers[i] > secMax) {

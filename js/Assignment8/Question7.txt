@@ -1,0 +1,4 @@
+A free variable is simply a variable which is not declared inside a given 
+function, but is used inside it. 
+
+In the code on Question6.js counter is a free variable.
