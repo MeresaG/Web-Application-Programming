@@ -39,6 +39,7 @@ $(document).ready( function () {
         $('#dateOfBirth').val("");
         $('#ddlDepartment').prop('selectedIndex',0);
         $('input[name="radioIsOutPatient"]').prop('checked', false);
+        //$(this)[0].reset();
 
     });
 

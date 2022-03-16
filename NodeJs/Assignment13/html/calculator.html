@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <form action="http://localhost:8000/" method="post">
+        <fieldset>
+            <legend>Perform Operation</legend>
+            <div>
+                <label for="numOne">Number One :</label>
+            </div>
+            <div>
+                <input type="text" name="numOne" id="numOne">
+            </div>
+
+            <div>
+                <label for="numTwo">Number Two :</label>
+            </div>
+            <div>
+                <input type="text" name="numTwo" id="numTwo">
+            </div>
+            <div>
+                <label for="operation"> Operation :</label>
+            </div>
+            <div>
+                <select name="operation" id="operation">
+                    <option value="Add">Add</option>
+                    <option value="Subtract">Subtract</option>
+                    <option value="Multiply">Multiply</option>
+                    <option value="Divide">Divide</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

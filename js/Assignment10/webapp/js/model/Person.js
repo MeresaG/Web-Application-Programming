@@ -1,28 +1,36 @@
+/*
+ * @author Meresa G
+ * @since 2022-3-9
+*/
+
 export class Person {
 
+    #name = "";
+    #dateOfBirth = null;
+
     constructor(name, dateOfBirth) {
-        this._name = name;
-        this._dateOfBirth = dateOfBirth;
+        this.#name = name;
+        this.#dateOfBirth = dateOfBirth;
     }
 
     getName() {
-        return this._name;
+        return this.#name;
     }
 
     getDateOfBirth() {
-        return this._dateOfBirth;
+        return this.#dateOfBirth;
     }
 
     setName(value) {
-        this._name = value;
+        this.#name = value;
     }
 
     setDateOfBirth(value) {
-        this._dateOfBirth = value;
+        this.#dateOfBirth = value;
     }
 
     toString() {
-        return `{Name: ${this._name}, DateOfBirth: ${this._dateOfBirth.getFullYear()}-${this._dateOfBirth.getMonth() + 1}-${this._dateOfBirth.getDate()}}`;
+        return `{Name: ${this.#name}, DateOfBirth: ${this.#dateOfBirth.getFullYear()}-${this.#dateOfBirth.getMonth() + 1}-${this.#dateOfBirth.getDate()}}`;
     }
 
 }
